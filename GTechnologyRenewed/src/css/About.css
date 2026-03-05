@@ -1,0 +1,119 @@
+
+
+.about{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    padding: 100px;
+    display: flex;
+  
+}
+.aboutContent{
+    align-items: center;
+    justify-content: center;
+}
+.aboutContent h1{
+    font-size: 2em;
+    margin-bottom: 20px;
+    
+}
+
+.projects-timeline {
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+.projects-timeline h2 {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  font-weight: 700;
+}
+
+.timeline {
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 100%;
+  background-color: #000000;
+}
+
+.timeline-item {
+  display: flex;
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.timeline-item.left {
+  justify-content: flex-end;
+  text-align: right;
+  width: 50%;
+}
+
+.timeline-item.right {
+  margin-left: 50%;
+  text-align: left;
+}
+
+.timeline-dot {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background-color: #000000;
+  border: 2px solid #000000;
+  border-radius: 50%;
+  top: 0.5rem;
+}
+
+.timeline-item.left .timeline-dot {
+  right: -8px;
+}
+
+.timeline-item.right .timeline-dot {
+  left: -8px;
+}
+
+.timeline-content {
+  width: calc(100% - 2rem);
+}
+
+.timeline-item.left .timeline-content {
+  padding-right: 2rem;
+}
+
+.timeline-item.right .timeline-content {
+  padding-left: 2rem;
+}
+
+.timeline-content h4 {
+  margin: 0 0 0.5rem 0;
+  font-weight: 600;
+}
+
+.timeline-content p {
+  margin: 0.25rem 0;
+  font-size: 0.9rem;
+  color: #000000;
+}
+
+
+
+.softwares-container {
+  text-align: center; 
+}
+
+.os-list {
+  justify-content: center;
+  display: flex; 
+  gap: 10rem;
+  text-align: left;       
+  margin-top: 10px;
+}
