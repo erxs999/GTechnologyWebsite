@@ -1,0 +1,28 @@
+.client{
+    text-align: center;
+}.client h1{
+    font-size: 2rem;
+}
+.client-container{
+    display: flex;
+    gap: 1rem;
+    padding: 20px 100px;
+    justify-content: center;
+}
+.client-container img{
+    height: 80px;
+    width: auto;
+}
+.client-card{
+    background-color: rgba(30, 30, 30, 0.066);
+    filter: grayscale(50);
+    padding: 40px;
+}
+.client-card:hover{
+    filter: grayscale(0);
+    transition: 0.3s ease-in-out;
+}
+#ruralbank{
+    width: 180px;
+    height: 40px;
+}

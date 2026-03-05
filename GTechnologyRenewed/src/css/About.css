@@ -1,22 +1,41 @@
 
 
 .about{
-    margin-top: 100px;
+    margin-top: 200px;
     display: flex;
     flex-direction: column;
     max-width: 100%;
-    padding: 100px;
+    
     display: flex;
   
 }
-.aboutContent{
+.content{
     align-items: center;
     justify-content: center;
+    padding: 0px 100px;
+    padding-top: 100px;
 }
-.aboutContent h1{
+.content h1{
     font-size: 2em;
     margin-bottom: 20px;
-    
+  }
+.specialization{
+  padding: 0px 100px;
+}
+
+.specialization-list {
+  padding-left: 0;
+}
+
+.specialization-list li {
+  display: flex;         
+  gap: 10px;            
+  margin-bottom: 10px;
+}
+
+.specialization-list .done-icon {
+  color: green;           
+
 }
 
 .projects-timeline {
@@ -103,17 +122,39 @@
   font-size: 0.9rem;
   color: #000000;
 }
+.timeline-content .year {
+  font-size: 0.85rem;
+  color: #888;
+}
 
+.timeline-content .location {
+  font-size: 0.85rem;
+  color: #666;
+}
 
 
 .softwares-container {
   text-align: center; 
+  margin-top: 100px;
+  background-color:rgba(40, 95, 40, 0.786);
+  padding: 70px;
+  color: white;
 }
-
+.softwares-container h2 {
+  font-size: 2rem;
+}
 .os-list {
   justify-content: center;
   display: flex; 
-  gap: 10rem;
-  text-align: left;       
-  margin-top: 10px;
+  gap: 15rem;
+  text-align: center;       
+
+}
+.os-list :hover{
+ color: rgb(0, 0, 0);
+ transition: color 0.3s ease  ;
+}
+#os-icon{
+  width: 80px;
+  height: auto;
 }

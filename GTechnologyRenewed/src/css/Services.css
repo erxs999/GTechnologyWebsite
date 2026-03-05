@@ -1,0 +1,47 @@
+.services{
+    width: 100%;
+    text-align: center;
+}
+.services h1{
+    font-size: 2em;
+}
+.services-container{
+ padding: 120px;
+}
+.services-content{
+    display: flex;
+    text-align: center;
+    gap:30px;
+    margin-bottom: 30px;
+}
+.service-card{
+    display: flex;
+    padding:20px;
+   background-color: rgba(30, 30, 30, 0.066);
+   border-radius: 10px;
+width:100%;
+   align-items: center;
+   gap:20px;
+   
+}
+
+.service-details h3{
+    display: flex;
+    text-align: left;
+}
+.service-details p{
+  text-align: left;
+}
+.service-icon{
+    width: 90px;
+    height: auto;
+    color:rgb(40, 95, 40);
+}
+.service-list{
+    display: flex;
+    padding:20px;
+    width:100%;
+    align-items: center;
+    gap:20px;
+   
+}

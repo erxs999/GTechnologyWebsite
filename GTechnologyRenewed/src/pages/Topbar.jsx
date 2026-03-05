@@ -1,12 +1,15 @@
-import logocomp from '../assets/logocomp.png'
+import logo from '../assets/logo.png'
+import useScrolled from "../hooks/useScrolled";
 import '../css/Topbar.css'
 
 export default function Topbar() {
+    const scrolled = useScrolled(50);
+
     return(
-         <nav className="topbar">
+         <nav className={`topbar ${scrolled ? "scrolled" : ""}`}>
             <div className="topbar-container">
                 <ul className="logo">
-                    <img src={logocomp} alt="GTechlogo" />
+                    <li><img src={logo} alt="GTechlogo" />Technology</li>
                 </ul>
                 <ul className="nav-links">
                     <li><a href="#home">Home</a></li>

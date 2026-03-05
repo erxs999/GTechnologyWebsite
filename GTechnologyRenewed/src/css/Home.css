@@ -1,12 +1,9 @@
 .home {
     width: 100%;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
- 
 }
 .home-container {
     max-width: 100%;
@@ -41,3 +38,24 @@
 .highlight{
   color: rgb(84, 200, 84);
 }
+.faq{
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+ text-align: center;
+  gap: 5rem;
+}
+
+.faq-text h1{
+  font-weight: 300;  
+  font-size: 40px;
+}
+.faq-text h1 .q{
+  font-weight: 700;
+  color: rgb(40, 95, 40);
+}
+.faq-img img{
+  width: 600px;
+  height: auto;
+}
+
