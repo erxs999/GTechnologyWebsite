@@ -13,7 +13,6 @@
    justify-content: center;
    padding: 200px;
    color: rgb(255, 255, 255);
-   
 }
 .home-background img {
   position: absolute;
@@ -38,24 +37,5 @@
 .highlight{
   color: #019934;
 }
-.faq{
-  padding: 100px;
-  display: flex;
-  justify-content: center;
- text-align: center;
-  gap: 5rem;
-}
 
-.faq-text h1{
-  font-weight: 300;  
-  font-size: 40px;
-}
-.faq-text h1 .q{
-  font-weight: 700;
-  color: #019934;
-}
-.faq-img img{
-  width: 600px;
-  height: auto;
-}
 

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+.faq{
+    background-color: white;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+ text-align: center;
+  gap: 5rem;
+
+}
+.faq-text h1{
+  font-weight: 300;  
+  font-size: 40px;
+}
+.faq-text h1 .q{
+  font-weight: 700;
+  color: #019934;
+}
+.faq-img img{
+  width: 600px;
+  height: auto;
+}
+.MuiAccordionSummary-content {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+}
+.MuiAccordionDetails-root {
+  font-size: 16px;
+}

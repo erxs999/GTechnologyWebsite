@@ -1,0 +1,19 @@
+.footer{
+    background-color: #000000;
+    width: 100%;
+    padding: 20px 0px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-weight: 300;
+    font-size: 15px;
+}
+.footer p{
+    display: flex;
+   align-items: center;
+}
+.gtech{
+    color: #019934;
+    font-weight: 600;
+    margin-left: 5px;
+}

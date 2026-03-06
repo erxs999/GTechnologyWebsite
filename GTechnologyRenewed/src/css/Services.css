@@ -1,9 +1,11 @@
 .services{
     width: 100%;
     text-align: center;
+    background-color: white;
 }
 .services h1{
     font-size: 2.5rem;
+    font-weight: 600;
 }
 .services-container{
  padding: 120px;
@@ -53,6 +55,9 @@ width:100%;
     gap: 2rem;
     color: rgb(0, 0, 0);
 }
+.otherservices h2{
+    font-weight: 500;
+}
 .otherservices-container{
     display: flex;
     gap: 2rem;
@@ -75,12 +80,14 @@ width:100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap:1.5rem;
+    gap: 1.5rem;
 
     color: white;
     position: relative;
 }
-
+.otherservice-card p{
+    font-weight: 300;
+}
 .otherservice-card:hover h2{
     background: linear-gradient(
         120deg,

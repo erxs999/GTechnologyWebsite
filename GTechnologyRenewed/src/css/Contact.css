@@ -1,9 +1,14 @@
 .contact{
     padding: 100px;
     text-align: center;
+     background-color: white;
 }
 .contact h1{
     font-size: 2.5rem;
+    font-weight: 600;
+}
+.contact p{
+    font-weight: 300;
 }
 .contact-container{
     display: flex;
@@ -20,6 +25,7 @@
 .contact-card h2{
     border-bottom: 1px solid rgba(0, 86, 49, 0.236); 
     margin-bottom: 30px;
+    font-weight: 500;
 }
 .contact-card p{
     color: #004718;

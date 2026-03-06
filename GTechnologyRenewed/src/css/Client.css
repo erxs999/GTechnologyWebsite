@@ -1,13 +1,14 @@
 .client{
+    max-width: 100%;
     text-align: center;
-    
+    background-color: white;
 }.client h1{
-    font-size: 2rem;
+    font-size: 2.5rem;
+    font-weight: 600;
 }
 .client-container{
     display: flex;
     gap: 1rem;
-    padding: 20px 100px;
     justify-content: center;
     
 }

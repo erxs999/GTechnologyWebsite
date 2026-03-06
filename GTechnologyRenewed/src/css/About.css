@@ -5,9 +5,8 @@
     display: flex;
     flex-direction: column;
     max-width: 100%;
-    
     display: flex;
-  
+    background-color: white;
 }
 .content{
     align-items: center;
@@ -18,6 +17,7 @@
 }
 .content h1{
     font-size: 2.5em;
+    font-weight: 600;
     margin-bottom: 20px;
   }
 .specialization{
@@ -154,8 +154,9 @@
 
 }
 .os-list :hover{
+ 
  color: rgb(0, 0, 0);
- transition: color 0.3s ease  ;
+   transition: color 0.3s ease;
 }
 #os-icon{
   width: 80px;
