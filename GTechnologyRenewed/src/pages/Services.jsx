@@ -109,42 +109,25 @@ export default function Services(){
                     </div>
 
                     <div className='other-services'>
-                        <div className="service-list"> 
-                            <div className='icon-container'>
-                                <IoNewspaperOutline className='service-icon'/>
-                            </div>
-                            <div className='service-details'>
-                                <h3>Flexible Deals</h3>
+                       <h2>Why Choose Us?</h2>
+                            <div className='otherservice-card'>
+                                <h2><IoNewspaperOutline className='otherservice-icon'/>Flexible Deals</h2>
                                 <p>you can enjoy the benefits of our expertise and support without the stress of paying the full amount
                                     all at once. With installment payments, you can break up the cost into manageable chunks and pay over a
                                     period of time that works best for you.</p>
                             </div>
-                        </div>
-
-                        <div className="service-list"> 
-                            <div className='icon-container'>
-                                <FiBox className='service-icon'/>
-                            </div>
-                            <div className='service-details'>
-                                <h3>Business Exclusive</h3>
+                            <div className='otherservice-card'>
+                                <h2><FiBox className='otherservice-icon'/>Business Exclusive</h2>
                                 <p>As one of our valued clients, we recognize the importance of providing personalized solutions that 
                                     truly address your individual concerns and goals. Our finish product will be exclusively and carefully
                                     crafted with your input and feedback, and we are confident that it will exceed your expectations.</p>
                             </div>
-                        </div>
-                        
-                        <div className="service-list"> 
-                            <div className='icon-container'>
-                                <IoShieldOutline className='service-icon'/>
-                            </div>
-                            <div className='service-details'>
-                                <h3>Legitimacy</h3>
+                            <div className='otherservice-card'>
+                                <h2><IoShieldOutline className='otherservice-icon'/>Legitimacy</h2>
                                 <p>We assure you that our Team is legitimate and registered to BIR. We understand that it can be
                                     challenging to navigate the market and find a reliable service provider, and we want to make sure that
                                     you have complete peace of mind when working with us.</p>
                             </div>
-                            
-                        </div>
                     </div>
                    
             </div>

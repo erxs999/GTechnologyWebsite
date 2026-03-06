@@ -34,13 +34,15 @@
 }
 
 .specialization-list .done-icon {
-  color: green;           
+  color: #019934;           
 
 }
 
 .projects-timeline {
   padding: 1rem 2rem;
   text-align: center;
+  z-index: -1;
+ 
 }
 
 .projects-timeline h2 {
@@ -62,7 +64,7 @@
   transform: translateX(-50%);
   width: 2px;
   height: 100%;
-  background-color: #000000;
+  background-color: #019934;
 }
 
 .timeline-item {
@@ -86,8 +88,8 @@
   position: absolute;
   width: 12px;
   height: 12px;
-  background-color: #000000;
-  border: 2px solid #000000;
+  background-color: #019934;
+  border: 2px solid #019934;
   border-radius: 50%;
   top: 0.5rem;
 }
@@ -136,7 +138,7 @@
 .softwares-container {
   text-align: center; 
   margin-top: 100px;
-  background-color:rgba(40, 95, 40, 0.786);
+  background-color:#019934;
   padding: 70px;
   color: white;
 }

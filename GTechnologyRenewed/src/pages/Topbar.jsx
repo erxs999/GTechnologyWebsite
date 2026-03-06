@@ -6,7 +6,7 @@ export default function Topbar() {
     const scrolled = useScrolled(50);
 
     return(
-         <nav className={`topbar ${scrolled ? "scrolled" : ""}`}>
+         <div className={`topbar ${scrolled ? "scrolled" : ""}`}>
             <div className="topbar-container">
                 <ul className="logo">
                     <li><img src={logo} alt="GTechlogo" />Technology</li>
@@ -20,6 +20,6 @@ export default function Topbar() {
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>    
-        </nav>
+        </div>
     )
 }
