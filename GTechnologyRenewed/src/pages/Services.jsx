@@ -107,27 +107,31 @@ export default function Services(){
                             </div>
                         </div>
                     </div>
-
-                    <div className='other-services'>
-                       <h2>Why Choose Us?</h2>
-                            <div className='otherservice-card'>
+        
+                    <div className='otherservices'>
+                         <h2>Why Choose Us?</h2>
+                        <div className='otherservices-container'>
+                           <div className='otherservice-card'>
                                 <h2><IoNewspaperOutline className='otherservice-icon'/>Flexible Deals</h2>
                                 <p>you can enjoy the benefits of our expertise and support without the stress of paying the full amount
-                                    all at once. With installment payments, you can break up the cost into manageable chunks and pay over a
+                                    all at once. With <b>installment payments</b>, you can break up the cost into manageable chunks and pay over a
                                     period of time that works best for you.</p>
                             </div>
                             <div className='otherservice-card'>
                                 <h2><FiBox className='otherservice-icon'/>Business Exclusive</h2>
-                                <p>As one of our valued clients, we recognize the importance of providing personalized solutions that 
+                                <p>As one of our valued clients, we recognize the importance of providing <b>personalized solutions</b> that 
                                     truly address your individual concerns and goals. Our finish product will be exclusively and carefully
                                     crafted with your input and feedback, and we are confident that it will exceed your expectations.</p>
                             </div>
                             <div className='otherservice-card'>
                                 <h2><IoShieldOutline className='otherservice-icon'/>Legitimacy</h2>
-                                <p>We assure you that our Team is legitimate and registered to BIR. We understand that it can be
+                                <p>We assure you that our Team is legitimate and <b>registered to BIR</b>. We understand that it can be
                                     challenging to navigate the market and find a reliable service provider, and we want to make sure that
                                     you have complete peace of mind when working with us.</p>
                             </div>
+                        </div>
+                       
+                            
                     </div>
                    
             </div>

@@ -3,7 +3,7 @@
     text-align: center;
 }
 .services h1{
-    font-size: 2em;
+    font-size: 2.5rem;
 }
 .services-container{
  padding: 120px;
@@ -22,7 +22,11 @@
 width:100%;
    align-items: center;
    gap:20px;
-   
+       transition: transform 0.3s ease;
+}
+.service-card:hover{
+    transform: scale(1.05);
+
 }
 
 .service-details h3{
@@ -44,19 +48,62 @@ width:100%;
     align-items: center;
    gap:20px;
 }
-.other-services{
-    display: flex;
+.otherservices{
+    margin-top:100px;
     gap: 2rem;
     color: rgb(0, 0, 0);
 }
-.otherservice-card{
+.otherservices-container{
+    display: flex;
+    gap: 2rem;
+    color: white;
+   
+}.otherservice-card{
     width: 100%;
     padding: 20px;
-    background-color: #019934b6;
+    background-color: #019934;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
 }
+
+
+.otherservice-card:hover{
+    transform: scale(1.06);
+}
+
 .otherservice-card h2{
     display: flex;
     align-items: center;
     justify-content: center;
     gap:1.5rem;
+
+    color: white;
+    position: relative;
+}
+
+.otherservice-card:hover h2{
+    background: linear-gradient(
+        120deg,
+        #ffffff 0%, 
+        #ffffff 40%,
+        #3cff90 60%,
+        #80ffa8 70%,
+        #ffffff 100%
+    );
+
+    background-size: 200% auto;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    animation: textShine 6s linear;
+}
+
+@keyframes textShine{
+    from{
+        background-position: -400% center;
+    }
+    to{
+        background-position: 400% center;
+    }
 }

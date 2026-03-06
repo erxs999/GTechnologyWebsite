@@ -4,11 +4,13 @@ import '../css/Home.css'
 import About from '../pages/About'
 import Services from '../pages/Services'
 import Client from '../pages/Client'
+import Team from '../pages/Team'
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import faq from "../assets/img/faq.jpg"
+import Contact from './Contact'
 
 export default function Home() {
     return(
@@ -28,10 +30,9 @@ export default function Home() {
             <Topbar />
             <About />
             <Services />
-            <Client />
+            <Client /> 
             
-            <div className="faq">
-               
+            <div className="faq"> 
                 <div className='faq-text'>
                      <h1>Frequently Asked <span className='q'>Questions</span></h1>
                 <Accordion>
@@ -63,8 +64,8 @@ export default function Home() {
                     <img src={faq} alt="faq" />
                 </div>
             </div>
-
-    
+            <Team />  
+            <Contact />
 
         </div>
     )

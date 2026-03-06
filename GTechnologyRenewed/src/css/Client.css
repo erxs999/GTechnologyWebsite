@@ -1,6 +1,6 @@
 .client{
     text-align: center;
-    z-index: -1;
+    
 }.client h1{
     font-size: 2rem;
 }
@@ -15,14 +15,15 @@
     height: 80px;
     width: auto;
 }
-.client-card{
-    background-color: rgba(30, 30, 30, 0.066);
-    filter: grayscale(50);
+.client-card img{
+    filter: grayscale(100%);
     padding: 40px;
+        transition: 0.3s ease-in-out;
+       
 }
-.client-card:hover{
-    filter: grayscale(0);
-    transition: 0.3s ease-in-out;
+.client-card img:hover {
+    filter: grayscale(0%);
+
 }
 #ruralbank{
     width: 180px;
