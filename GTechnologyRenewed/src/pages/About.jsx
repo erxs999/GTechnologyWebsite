@@ -83,17 +83,35 @@ export default function About(){
         <div className="about">
             <div className="content">
                 <h1>About Us</h1>
-                <p>G. Technology is a freelance software developer named after its creator, Joel Maribbay Gumiran. In addition
+                <p><b>G. Technology</b> is a freelance software developer named after its creator, <b>Joel Maribbay Gumiran</b>. In addition
                     GTechnology is a group of professionals who work collaboratively to design, develop, and maintain software
                     applications. The team typically consists of three members Joel Gumiran the founder a full stack developer,
-                    Mart Silvestre a back-end developer, and database administrator and Rodolfo Tacang a front-end developer.
+                    Mart Silvestre a back-end developerand database administrator and Rodolfo Tacang a front-end developer.
                     GTechnology use programming languages, frameworks, and tools to create software solutions that meet the
                     needs of their clients or organizations. The team members communicate effectively to ensure that the
                     software is developed according to the specifications and requirements of the project. They are skilled at
                     troubleshooting and debugging software issues, and are committed to producing high-quality software products
                     that are scalable, efficient, and secure.</p>
             </div>
-
+            <div className='card-container'>
+              <div className='card'>
+                <h1>2010</h1>
+                <p>Since</p>
+              </div>
+              <div className='card'>
+                <h1>10+</h1>
+                <p>Cities & Municipalities</p>
+              </div>
+              <div className='card'>
+                <h1>20+</h1>
+                <p>Clients</p>
+              </div>
+              <div className='card'>
+                <h1>30+</h1>
+                <p>Projects</p>
+              </div>
+              
+            </div>
             <div className='specialization'> 
               <h3>GTechnology specializations</h3>
               
@@ -108,7 +126,9 @@ export default function About(){
                     <li><DoneAllIcon className='done-icon'/> CCTV Installation; and </li>
                     <li><DoneAllIcon className='done-icon'/> Other Related Technological Services</li>
                 </ul>
-              
+
+
+               
             </div>
             
            <div className="projects-timeline">

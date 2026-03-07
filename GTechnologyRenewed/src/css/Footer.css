@@ -3,17 +3,22 @@
     width: 100%;
     padding: 20px 0px;
     color: white;
-    display: flex;
+     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     font-weight: 300;
     font-size: 15px;
 }
 .footer p{
-    display: flex;
-   align-items: center;
+   text-align: center;
 }
+
 .gtech{
     color: #019934;
+    font-weight: 600;
+    margin-left: 5px;
+}
+.gtech1{
     font-weight: 600;
     margin-left: 5px;
 }

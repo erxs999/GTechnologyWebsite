@@ -2,7 +2,7 @@ import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import faq from "../assets/img/faq.jpg"
+import idol from "../assets/img/idol.jpg"
 import '../css/FAQ.css'
 
 export default function FAQ(){
@@ -36,7 +36,7 @@ export default function FAQ(){
                 </Accordion>
                 </div>
                 <div className='faq-img'>
-                    <img src={faq} alt="faq" />
+                    <img src={idol} alt="idol" />
                 </div>
             </div>
     )

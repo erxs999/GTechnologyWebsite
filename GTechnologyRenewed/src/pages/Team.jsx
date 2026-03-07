@@ -29,8 +29,6 @@ export default function Team(){
                         <p>Web Developer</p>
                         </div>
                 </div>
-            </div>
-            <div className="team-container">
                 <div className="team-card">
                     <img src={philip} alt="Joel Gumiranc" />
                     <div className="overlay">

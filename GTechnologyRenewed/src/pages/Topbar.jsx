@@ -20,7 +20,7 @@ export default function Topbar() {
                     <li><a href="#contact">Contact</a></li>
                 </ul>
                 <ul className='facebook'>
-                     <a href="https://www.facebook.com/people/G-Technology/100045189956593/" target="_blank" rel="noopener noreferrer">
+                     <a href="https://www.facebook.com/people/G-Technology/100045189956593/" target="_blank" >
                      FB Page
                      </a>
                 </ul>

@@ -21,6 +21,16 @@ export default function Home() {
               <div className="home-content">
                 <h1>GTechnology</h1>
                 <p>Provides <span className='highlight'>digital solutions</span>  for your digital challenges</p>
+                <ul className='services-list'>
+                    <li>Web</li>
+                    <li>SoftWare</li>
+                    <li>VPN</li>
+                    <li>Network</li>
+                    <li>Server</li>
+                    <li>Firewall</li>
+                    <li>CCTV</li>
+                    <li>PC</li>
+                </ul>
               </div>
           
             </div>

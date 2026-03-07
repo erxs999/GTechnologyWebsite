@@ -48,8 +48,6 @@ export default function Services(){
                                 <p>Develop system software tailored based from client's business flow</p>
                             </div>
                         </div>
-                    </div>
-                      <div className="services-content">
                         <div className="service-card"> 
                             <div className='icon-container'>
                                 <PiNetwork className='service-icon'/>
@@ -77,8 +75,6 @@ export default function Services(){
                                 <p>Set up a premium security security and defense feature to prevent cyber attacks</p>
                             </div>
                         </div>
-                    </div>
-                    <div className="services-content">
                         <div className="service-card"> 
                             <div className='icon-container'>
                                 <IoIosLaptop className='service-icon'/>

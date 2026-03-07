@@ -19,6 +19,7 @@
 .faq-img img{
   width: 600px;
   height: auto;
+  border-radius: 10px;
 }
 .MuiAccordionSummary-content {
   font-size: 20px;

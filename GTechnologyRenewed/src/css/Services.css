@@ -12,6 +12,8 @@
 }
 .services-content{
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     text-align: center;
     gap:30px;
     margin-bottom: 30px;
@@ -19,13 +21,16 @@
 .service-card{
     display: flex;
     padding:20px;
-   background-color: rgba(30, 30, 30, 0.066);
-   border-radius: 10px;
-width:100%;
-   align-items: center;
-   gap:20px;
-       transition: transform 0.3s ease;
+    background-color: rgba(30, 30, 30, 0.066);
+    border-radius: 10px;
+
+    flex: 1 1 300px;   /* important */
+
+    align-items: center;
+    gap:20px;
+    transition: all .3s ease;
 }
+
 .service-card:hover{
     transform: scale(1.05);
 
@@ -60,11 +65,13 @@ width:100%;
 }
 .otherservices-container{
     display: flex;
+    flex-wrap: wrap;
     gap: 2rem;
     color: white;
    
-}.otherservice-card{
-    width: 100%;
+}
+.otherservice-card{
+    flex: 1 1 300px;
     padding: 20px;
     background-color: #019934;
     border-radius: 10px;

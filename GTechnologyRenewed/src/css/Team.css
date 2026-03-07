@@ -9,12 +9,10 @@
     font-weight: 600;
 }
 .team-container{
-   display: flex;
-   gap: 3rem;
-   justify-content: center;
-     padding: 50px;
- 
-  
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    justify-content: center;
 }
 .team-card {
   position: relative;

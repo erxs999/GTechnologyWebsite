@@ -22,9 +22,6 @@ export default function Client(){
                 <div className='client-card'><img src={c4} alt="client4" /></div>
                 <div className='client-card'><img src={c5} alt="client5" /></div>
                 <div className='client-card'><img src={c6} alt="client6" /></div>
-                
-            </div>
-            <div className='client-container'>
                 <div className='client-card'><img src={c7} alt="client7" /></div>
                 <div className='client-card'><img src={c8} alt="client8" /></div>
                 <div className='client-card'><img id="ruralbank" src={c9} alt="client9" /></div>
