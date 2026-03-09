@@ -9,41 +9,40 @@ import Contact from './Contact'
 import Footer from './Footer'
 import FAQ from './FAQ'
 
-
 export default function Home() {
-    return(
-        <div id="home" className="home">
-            
-            <div className="home-container">
-              <div className="home-background">
-                 <img src={bg} alt="background" />
-              </div>
-              <div className="home-content">
-                <h1>GTechnology</h1>
-                <p>Provides <span className='highlight'>digital solutions</span>  for your digital challenges</p>
-                <ul className='services-list'>
-                    <li>Web</li>
-                    <li>SoftWare</li>
-                    <li>VPN</li>
-                    <li>Network</li>
-                    <li>Server</li>
-                    <li>Firewall</li>
-                    <li>CCTV</li>
-                    <li>PC</li>
-                </ul>
-              </div>
-          
-            </div>
-           
-            <Topbar />
-            <div id='about'><About /></div>
-            <div id='services'><Services /></div>
-            <div id='clients'><Client /></div> 
-            <FAQ />
-            <div id='team'><Team /></div>
-            <div id='contact'><Contact /></div>
-            <Footer />
+  return(
+    <div id="home" className="home">
 
+      <div className="home-container">
+
+        <div className="home-background">
+          <img src={bg} alt="background"/>
         </div>
-    )
+
+        <div className="home-content">
+          <h1>GTechnology</h1>
+
+          <p>
+            Provides <span className="highlight">digital solutions</span>
+            {" "}for your digital challenges
+          </p>
+        </div>
+
+      </div>
+
+      <Topbar />
+
+      <div id='about'><About /></div>
+      <div id='services'><Services /></div>
+      <div id='clients'><Client /></div>
+
+      <FAQ />
+
+      <div id='team'><Team /></div>
+      <div id='contact'><Contact /></div>
+
+      <Footer />
+
+    </div>
+  )
 }

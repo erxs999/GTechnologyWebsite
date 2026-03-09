@@ -3,75 +3,117 @@
 .topbar {
   width: 100%;
   position: fixed;
-  top: 0;
-  box-sizing: border-box;
-  margin-top: 15px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(50px);
   height: 70px;
   display: flex;
-  align-items: center;   
   justify-content: center;
-   z-index: 1;
-   transition: all 0.5s ease;
+  align-items: center;
+  backdrop-filter: blur(50px);
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+  padding: 10px 0px;
+  transition: all 0.5s ease;
+  z-index: 1000;
 }
 
 .topbar.scrolled {
   width: 75%;
   height: 50px;
-  background: linear-gradient(120deg, rgba(0, 0, 0, 0.393) 90%);
+  padding: 0px 30px;
+  margin-top: 20px;
+  background: linear-gradient(120deg, rgba(0, 0, 0, 0.427) 90%);
   border-radius: 20px;
-  border-bottom: 0; 
+  border-bottom: none;
 }
 
 .topbar-container {
+  width: 100%;
+  max-width: 1200px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
-.topbar-container.scrolled{
-  height: 40px;
+
+.logo {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  font-size: 25px;
 }
+
+.logo img {
+  width: 30px;
+  height: auto;
+}
+
+/* NAVIGATION */
 
 .nav-links {
   display: flex;
-  gap: 2.5rem;
+  gap: 1rem;
   list-style: none;
 }
 
 .nav-links a {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-  font-weight: 300;
-  font-size: 15px;
-}
-.logo{
-  position: absolute;
-  left: 60px;
-}
-.logo li{
-    display: flex;
-    align-items: center;
-    font-size: 20px;
-    color: white;
-    font-weight: 600;
-}
-.logo img{
-    width: 30px;
-    height: auto;
-}
-
-.nav-links a:hover {
-  color: #c2c2c2;
-}
-.facebook{
-  position: absolute;
-  right: 100px;
-
-}
-.facebook a{
   color: white;
-  text-decoration: white;
+  text-decoration: none;
+  padding: 6px 10px;
+  font-size: 15px;
+  font-weight: 300;
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.3s ease;
+}
+
+.nav-links a:hover{
+  border-radius: 10px;
+  background-color: #0199345b;
+}
+
+/* RIGHT SIDE ICONS */
+
+.right-icons{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.facebook a {
+  color: white;
+  text-decoration: none;
   font-weight: 600;
+}
+
+/* HAMBURGER */
+
+.menu-icon {
+  display: none;
+  font-size: 28px;
+  color: white;
+  cursor: pointer;
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+
+  .menu-icon {
+    display: block;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background: rgba(49, 49, 49, 0.9);
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 20px 0;
+    display: none;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
 
 }

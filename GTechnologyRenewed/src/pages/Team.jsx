@@ -30,13 +30,12 @@ export default function Team(){
                         </div>
                 </div>
                 <div className="team-card">
-                    <img src={philip} alt="Joel Gumiranc" />
+                    <img src={philip} alt="Philip Gonzales" />
                     <div className="overlay">
                         <h3>Philip John Enrico L. Gonzales, CPA</h3>
                         <p>Accounting and Tax Consultant</p>
                         </div>
                 </div>
-                
             </div>
 
 

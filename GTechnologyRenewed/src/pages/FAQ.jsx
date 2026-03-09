@@ -10,7 +10,7 @@ export default function FAQ(){
          <div className="faq"> 
                 <div className='faq-text'>
                      <h1>Frequently Asked <span className='q'>Questions</span></h1>
-                <Accordion>
+                <Accordion expanded={true}>
                     <AccordionSummary expandIcon={<ExpandMoreIcon />}>Are we legitimate?</AccordionSummary>
                     <AccordionDetails>Yes! We are legitimate and we are registered to BIR and our software solutions are also built to
                                     comply with Republic Act 10173 - Data Privacy Act of 2012.

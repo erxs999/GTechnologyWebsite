@@ -115,7 +115,7 @@ export default function Services(){
                             </div>
                             <div className='otherservice-card'>
                                 <h2><FiBox className='otherservice-icon'/>Business Exclusive</h2>
-                                <p>As one of our valued clients, we recognize the importance of providing <b>personalized solutions</b> that 
+                                <p>As one of our valued clients, we recognize the importance of providing <strong>personalized solutions</strong> that 
                                     truly address your individual concerns and goals. Our finish product will be exclusively and carefully
                                     crafted with your input and feedback, and we are confident that it will exceed your expectations.</p>
                             </div>

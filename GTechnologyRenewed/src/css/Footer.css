@@ -1,9 +1,9 @@
 .footer{
-    background-color: #000000;
+    background-color: #212121;
     width: 100%;
     padding: 20px 0px;
     color: white;
-     display: flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     font-weight: 300;
@@ -11,8 +11,11 @@
 }
 .footer p{
    text-align: center;
+     text-align: center;
+    display: flex;
+    align-items: center; 
+    gap: 5px
 }
-
 .gtech{
     color: #019934;
     font-weight: 600;

@@ -21,7 +21,7 @@
 .service-card{
     display: flex;
     padding:20px;
-    background-color: rgba(30, 30, 30, 0.066);
+    background-color: #0199341c;
     border-radius: 10px;
 
     flex: 1 1 300px;   /* important */
@@ -58,7 +58,7 @@
 .otherservices{
     margin-top:100px;
     gap: 2rem;
-    color: rgb(0, 0, 0);
+    
 }
 .otherservices h2{
     font-weight: 500;
@@ -88,8 +88,6 @@
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
-
-    color: white;
     position: relative;
 }
 .otherservice-card p{
